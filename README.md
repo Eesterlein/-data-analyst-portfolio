@@ -82,7 +82,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 ---
 
 ### 🧠 Local LLM Assistant Prototype  
-**Code:** [Local LLM Chatbot Repo](https://github.com/Eesterlein/local-llm-agent)
+**Code:** [Local LLM Chatbot Repo](https://github.com/Eesterlein/Building-Local-LLMs-for-Private-Workflows)
 
 **Goal:** To create a privacy-first AI assistant using locally hosted large language models (LLMs).
 
