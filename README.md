@@ -24,7 +24,7 @@ I'm actively building my skills through certifications, real-world projects, and
 
 ## 📑 Table of Contents
 
-### [About](#about) 
+## [About](#about) 
 
 ### Portfolio Projects
 
@@ -108,7 +108,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 ---
 
 <a name="education"></a>
-### Education  
+## Education  
 **Western State Colorado University**  
 **Bachelor of Arts – Biology**  
 *Gunnison, CO — 2013*
@@ -116,7 +116,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 ---
 
 <a name="certificates"></a>
-### Certificates  
+## Certificates  
 The best way to showcase skills is by building real-world projects, but certifications reflect dedication to structured learning. Here are my current credentials:
 
 - **Google AI Essentials** *(2024)*  
@@ -126,7 +126,7 @@ The best way to showcase skills is by building real-world projects, but certific
 ---
 
 <a name="contact"></a>
-### Contact  
+## Contact  
 **Email:** elissa.esterlein@gmail.com  
 **Phone:** (970) 403-7694  
 
