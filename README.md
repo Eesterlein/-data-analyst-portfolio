@@ -24,8 +24,7 @@ I'm actively building my skills through certifications, real-world projects, and
 
 ## 📑 Table of Contents
 
-### About
-- [About](#about) 
+### [About](#about) 
 
 ### Portfolio Projects
 
@@ -45,18 +44,15 @@ I'm actively building my skills through certifications, real-world projects, and
 
 ---
 
-### Education 
-- [Education](#education)  
+## [Education](#education)  
 
 ---
 
-### Certificates  
-- [Certificates](#certificates)  
+## [Certificates](#certificates)  
 
 ---
 
-### Contact  
-- [Contact](#contact)    
+## [Contact](#contact)    
 
 
 ## Portfolio Projects  
