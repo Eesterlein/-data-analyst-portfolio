@@ -30,8 +30,11 @@ I'm actively building my skills through certifications, real-world projects, and
 ### Portfolio Projects
 
 #### Python  
-- [Garmin Fitness Data Analysis](#garmin-fitness-data-analysis)  
-- [Colorado Land Ownership Mapping](#colorado-land-ownership-mapping)  
+<a name="garmin-fitness-data-analysis"></a>
+- [Garmin Fitness Data Analysis](#garmin-fitness-data-analysis)
+<a name="colorado-land-ownership-mapping"></a>
+- [Colorado Land Ownership Mapping](#colorado-land-ownership-mapping)
+<a name="building-local-language-models"></a>
 - [Building Local Language Models](#building-local-language-models)  
 
 #### SQL  
