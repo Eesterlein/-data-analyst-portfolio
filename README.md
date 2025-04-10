@@ -30,11 +30,8 @@ I'm actively building my skills through certifications, real-world projects, and
 ### Portfolio Projects
 
 #### Python  
-<a name="garmin-fitness-data-analysis"></a>
 - [Garmin Fitness Data Analysis](#garmin-fitness-data-analysis)
-<a name="colorado-land-ownership-mapping"></a>
 - [Colorado Land Ownership Mapping](#colorado-land-ownership-mapping)
-<a name="building-local-language-models"></a>
 - [Building Local Language Models](#building-local-language-models)  
 
 #### SQL  
@@ -48,7 +45,7 @@ I'm actively building my skills through certifications, real-world projects, and
 
 ---
 
-### Education  
+### Education 
 - [Education](#education)  
 
 ---
@@ -67,6 +64,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 
 ---
 
+<a name="garmin-fitness-data-analysis"></a>
 ### Garmin Fitness Data Analysis  
 **Code:** [Garmin Fitness Analysis Repository](https://github.com/Eesterlein/My-2024-Garmin-Data-Analysis-)  
 **Live Report:** [GitHub Pages Site](https://eesterlein.github.io/My-2024-Garmin-Data-Analysis-/)
@@ -82,6 +80,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 
 ---
 
+<a name="building-local-language-models"></a>
 ### Local LLM Assistant Prototype  
 **Code:** [Local LLM Chatbot Repo](https://github.com/Eesterlein/Building-Local-LLMs-for-Private-Workflows)
 
@@ -96,6 +95,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 
 ---
 
+<a name="colorado-land-ownership-mapping"></a>
 ### Colorado Land Ownership Analysis  
 **Code:** [Colorado Land Ownership GitHub Repo](https://github.com/Eesterlein/colorado-land-ownership)  
 **Live Report:** [GitHub Pages Site](https://eesterlein.github.io/colorado-land-ownership/)
@@ -111,6 +111,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 
 ---
 
+<a name="education"></a>
 ## Education  
 **Western State Colorado University**  
 **Bachelor of Arts – Biology**  
@@ -118,6 +119,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 
 ---
 
+<a name="certificates"></a>
 ## Certificates  
 The best way to showcase skills is by building real-world projects, but certifications reflect dedication to structured learning. Here are my current credentials:
 
@@ -127,6 +129,7 @@ The best way to showcase skills is by building real-world projects, but certific
 
 ---
 
+<a name="contact"></a>
 ## Contact  
 **Email:** elissa.esterlein@gmail.com  
 **Phone:** (970) 403-7694  
