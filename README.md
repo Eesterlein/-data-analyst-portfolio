@@ -27,46 +27,44 @@ I'm actively building my skills through certifications, real-world projects, and
 ### About
 - [About](#about) 
 
-### 📁 Portfolio Projects
+### Portfolio Projects
 
-#### 🐍 Python  
+#### Python  
 - [Garmin Fitness Data Analysis](#garmin-fitness-data-analysis)  
 - [Colorado Land Ownership Mapping](#colorado-land-ownership-mapping)  
 - [Building Local Language Models](#building-local-language-models)  
 
-#### 🛢️ SQL  
+#### SQL  
 - *Coming Soon*  
 
-#### 📊 R  
+#### R  
 - *Coming Soon*  
 
-#### 📉 Tableau  
+#### Tableau  
 - [My Tableau Public Profile](https://public.tableau.com/app/profile/elissa.esterlein)  
 
 ---
 
-### 🎓 Education  
+### Education  
 - [Education](#education)  
 
 ---
 
-### 📜 Certificates  
+### Certificates  
 - [Certificates](#certificates)  
 
 ---
 
-### 📬 Contact  
-- [GitHub](https://github.com/Eesterlein)  
-- [Kaggle](https://www.kaggle.com/elissaesterlein)  
-- [Email](mailto:elissa.esterlein@gmail.com)  
+### Contact  
+- [Contact](#contact)    
 
 
-## 🗂️ Portfolio Projects  
+## Portfolio Projects  
 In this section, I list data analytics and AI projects with brief summaries and links to source code or hosted reports.
 
 ---
 
-### 📊 Garmin Fitness Data Analysis  
+### Garmin Fitness Data Analysis  
 **Code:** [Garmin Fitness Analysis Repository](https://github.com/Eesterlein/My-2024-Garmin-Data-Analysis-)  
 **Live Report:** [GitHub Pages Site](https://eesterlein.github.io/My-2024-Garmin-Data-Analysis-/)
 
@@ -81,7 +79,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 
 ---
 
-### 🧠 Local LLM Assistant Prototype  
+### Local LLM Assistant Prototype  
 **Code:** [Local LLM Chatbot Repo](https://github.com/Eesterlein/Building-Local-LLMs-for-Private-Workflows)
 
 **Goal:** To create a privacy-first AI assistant using locally hosted large language models (LLMs).
@@ -95,7 +93,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 
 ---
 
-### 🌄 Colorado Land Ownership Analysis  
+### Colorado Land Ownership Analysis  
 **Code:** [Colorado Land Ownership GitHub Repo](https://github.com/Eesterlein/colorado-land-ownership)  
 **Live Report:** [GitHub Pages Site](https://eesterlein.github.io/colorado-land-ownership/)
 
@@ -110,14 +108,14 @@ In this section, I list data analytics and AI projects with brief summaries and 
 
 ---
 
-## 🎓 Education  
+## Education  
 **Western State Colorado University**  
 **Bachelor of Arts – Biology**  
 *Gunnison, CO — 2013*
 
 ---
 
-## 📜 Certificates  
+## Certificates  
 The best way to showcase skills is by building real-world projects, but certifications reflect dedication to structured learning. Here are my current credentials:
 
 - **Google AI Essentials** *(2024)*  
@@ -126,7 +124,7 @@ The best way to showcase skills is by building real-world projects, but certific
 
 ---
 
-## 📬 Contact  
+## Contact  
 **Email:** elissa.esterlein@gmail.com  
 **Phone:** (970) 403-7694  
 
