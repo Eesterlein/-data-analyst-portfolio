@@ -34,7 +34,7 @@ I'm actively building my skills through certifications, real-world projects, and
 - [Building Local Language Models](#building-local-language-models)  
 
 #### SQL  
-- [US State-level Demographics Shapshot](#us-state-demographics-sql-acs2019)
+- [US State-level Demographics Shapshot](#US-State-level-Demographics-Shapshot)
   
 #### R  
 - *Coming Soon*  
@@ -105,7 +105,7 @@ In this section, I list data analytics and AI projects with brief summaries and 
 ---
 
 ### US State-level Demographics Shapshot
-**Code:** [US State-level Demographics Shapshot Repo](us-state-demographics-sql-acs2019)  
+**Code:** [US State-level Demographics Shapshot Repo](https://github.com/Eesterlein/us-state-demographics-sql-acs2019)  
 **Live Report:** [Looker Studio](https://lookerstudio.google.com/s/mNjbN_gsXoQ)
 
 **Goal:**  
