@@ -34,8 +34,8 @@ I'm actively building my skills through certifications, real-world projects, and
 - [Building Local Language Models](#building-local-language-models)  
 
 #### SQL  
-- *Coming Soon*  
-
+- [US State-level Demographics Shapshot](#us-state-demographics-sql-acs2019)
+  
 #### R  
 - *Coming Soon*  
 
@@ -101,6 +101,27 @@ In this section, I list data analytics and AI projects with brief summaries and 
 **Technology:** Python, GeoPandas, Matplotlib, ArcGIS, GitHub Pages.
 
 **Results:** Found that 62.6% of Colorado is privately owned; in counties like Gunnison, over 76% is public land, but private parcels are increasingly owned by out-of-county residents and investment entities.
+
+---
+
+### US State-level Demographics Shapshot
+**Code:** [US State-level Demographics Shapshot Repo](us-state-demographics-sql-acs2019)  
+**Live Report:** [Looker Studio](https://lookerstudio.google.com/s/mNjbN_gsXoQ)
+
+**Goal:**  
+To analyze state-level socioeconomic indicators using U.S. Census ACS data and uncover patterns in poverty, income, education, housing, and inequality.
+
+**Description:**  
+This project uses SQL to process 2019 ACS data, calculate key metrics (poverty rate, income, unemployment, etc.), and rank states using window functions and case logic. The final dataset is visualized in Looker Studio with interactive maps and scorecards.
+
+**Skills:**  
+SQL joins, CTEs, window functions, CASE statements, aggregate functions, data type conversion, public data querying, dashboard design.
+
+**Technology:**  
+BigQuery, Looker Studio, GitHub, Google Cloud Console.
+
+**Results:**  
+Created a full-featured dashboard showing disparities in income, education, rent burden, and inequality across all U.S. states. Used SQL logic to categorize poverty levels, rank states, and feed geospatial visualizations.  
 
 ---
 
