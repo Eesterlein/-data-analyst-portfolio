@@ -37,7 +37,10 @@ I'm actively building my skills through certifications, real-world projects, and
 - [US State-level Demographics Snapshot](#US-State-level-Demographics-Snapshot)
   
 #### R  
-- *Coming Soon*  
+- *Coming Soon*
+
+#### Web Development
+- [Gunnison Airport Flight Tracker Website](#gunnison-airport-flight-tracker-website)
 
 #### Tableau  
 - [My Tableau Public Profile](https://public.tableau.com/app/profile/elissa.esterlein)  
@@ -122,6 +125,21 @@ BigQuery, Looker Studio, GitHub, Google Cloud Console.
 
 **Results:**  
 Created a full-featured dashboard showing disparities in income, education, rent burden, and inequality across all U.S. states. Used SQL logic to categorize poverty levels, rank states, and feed geospatial visualizations.  
+
+---
+
+### Gunnison Airport Flight Tracker Website
+**Code:** [Gunnison Airport Tracker GitHub Repo](https://github.com/Eesterlein/gunnison-airport-tracker)  
+**Live Report:** [Heroku App](https://gunnison-airport-tracker-28d8dfff50df.herokuapp.com)
+
+**Goal:** To build a real-time flight tracking system for private flights near Gunnison, CO, leveraging the OpenSky Network API and PostgreSQL for data storage.
+
+**Description:** This web application tracks the location, altitude, and status of aircraft flying near Gunnison Airport (KGUC). The project integrates OpenSky API for real-time flight data, stores flight information in a PostgreSQL database, and displays the data on an interactive, user-friendly interface. Private plane logs are stored and queried based on repeat sightings.
+
+**Skills:** API integration, web development, database management, real-time data processing, interactive visualization.  
+**Technology:** Node.js, Express.js, OpenSky Network API, PostgreSQL, Heroku, HTML, CSS, JavaScript.
+
+**Results:** Successfully built and deployed a functional flight tracker displaying real-time flights, with the ability to track and log private aircraft that fly over Gunnison regularly. The system fetches and updates flight data every hour, ensuring the live dashboard remains current.
 
 ---
 
