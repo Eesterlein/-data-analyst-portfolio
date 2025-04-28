@@ -9,7 +9,7 @@ Hi, I'm Elissa. I bring a background in biology and medical research to the fiel
 
 After stepping away from research to raise my child and live off-grid in the Colorado Rockies, I’ve reignited my technical skills through modern tools like Python, geospatial analysis, and AI-assisted workflows. My passion for learning, curiosity about complex systems, and drive to uncover meaningful patterns have made data science an exciting new chapter in my career.
 
-This portfolio showcases my work across a variety of domains — from analyzing personal fitness data, to exploring land ownership trends in Colorado, to building lightweight AI tools. These projects reflect my growing expertise in data wrangling, visualization, and storytelling through code.
+This portfolio showcases my work across a variety of domains — from exploring land ownership trends in Colorado, to building lightweight AI tools, to tracking real-time flight data near Gunnison Airport. These projects reflect my growing expertise in data wrangling, visualization, and storytelling through code.
 
 I'm actively building my skills through certifications, real-world projects, and public data challenges — and I’m excited to contribute to mission-driven organizations as a flexible, creative, and thoughtful data analyst.
 
