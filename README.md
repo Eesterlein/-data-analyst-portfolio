@@ -7,7 +7,7 @@ Interactive portfolio highlighting data projects, certifications, and skills
 
 Hi, I'm Elissa. I bring a background in biology and medical research to the field of data analytics, with a strong interest in applying data-driven insights to health, environment, and public policy challenges.
 
-After stepping away from research to raise my child and live off-grid in the Colorado Rockies, I’ve reignited my technical skills through modern tools like Python, geospatial analysis, and AI-assisted workflows. My passion for learning, curiosity about complex systems, and drive to uncover meaningful patterns have made data science an exciting new chapter in my career.
+After stepping away from research to raise my children and live off-grid in the Colorado Rockies, I’ve reignited my technical skills through modern tools like Python, geospatial analysis, and AI-assisted workflows. My passion for learning, curiosity about complex systems, and drive to uncover meaningful patterns have made data science an exciting new chapter in my career.
 
 This portfolio showcases my work across a variety of domains — from exploring land ownership trends in Colorado, to building lightweight AI tools, to tracking real-time flight data near Gunnison Airport. These projects reflect my growing expertise in data wrangling, visualization, and storytelling through code.
 
@@ -41,6 +41,8 @@ I'm actively building my skills through certifications, real-world projects, and
 
 #### Web Development
 - [Gunnison Airport Flight Tracker Website](#gunnison-airport-flight-tracker-website)
+- [Gunnison County Housing Dashboard (Pre/Post COVID)](gunnison-housing-snapshots)
+
 
 #### Tableau  
 - [My Tableau Public Profile](https://public.tableau.com/app/profile/elissa.esterlein)  
@@ -141,6 +143,27 @@ Created a full-featured dashboard showing disparities in income, education, rent
 
 **Results:** Successfully built and deployed a functional flight tracker displaying real-time flights, with the ability to track and log private aircraft that fly over Gunnison regularly. The system fetches and updates flight data every hour, ensuring the live dashboard remains current.
 
+---
+
+## Gunnison County Housing Dashboard (Pre/Post COVID)
+
+**Code:** [GitHub Repo](https://github.com/<your-username>/gunnison-housing-snapshots)  
+**Live Site:** [GitHub Pages](https://<your-username>.github.io/gunnison-housing-snapshots/)
+
+**Goal:**  
+Create an interactive, public-facing dashboard to compare **pre-COVID (2017–2018)** vs **post-COVID (2022–2023)** housing market conditions in Gunnison County, CO, and communicate affordability changes.
+
+**Description:**  
+Single-page web app with an **All property types** view and a **Residential proxy (≥800 sq ft)** lens. The app shows “typical sale” medians, price per sq ft, sales counts, quarterly medians/volume (with a dashed pre/post divider), a **Gunnison vs U.S.** context chart, and an **affordability** indicator (share of U.S. households able to afford, assuming 20% down, 30% payment-to-income, prevailing mortgage rates, and national median income).
+
+**Skills:**  
+Web development, data visualization, data cleaning, UX copy & layout, deployment (GitHub Pages)
+
+**Results:**  
+- **All property types (≤$15M):** median rose from **$305k** (2017–2018) to **$575k** (2022–2023); affordability fell from **42%** to **14%** of U.S. households.  
+- **Residential proxy (≥800 sq ft):** median moved from **$343k** to **$650k** over the same periods.  
+- Clear, mobile-friendly UI with an obvious lens toggle, pre/post divider, and concise methodological notes.
+  
 ---
 
 ## Education  
