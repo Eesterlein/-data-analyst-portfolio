@@ -163,7 +163,6 @@ Web development, data visualization, data cleaning, UX copy & layout, deployment
 **Results:**  
 - **All property types (≤$15M):** median rose from **$305k** (2017–2018) to **$575k** (2022–2023); affordability fell from **42%** to **14%** of U.S. households.  
 - **Residential proxy (≥800 sq ft):** median moved from **$343k** to **$650k** over the same periods.  
-- Clear, mobile-friendly UI with an obvious lens toggle, pre/post divider, and concise methodological notes.
   
 ---
 
