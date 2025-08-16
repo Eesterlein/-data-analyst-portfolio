@@ -147,8 +147,8 @@ Created a full-featured dashboard showing disparities in income, education, rent
 
 ## Gunnison County Housing Dashboard (Pre/Post COVID)
 
-**Code:** [GitHub Repo](https://github.com/<your-username>/gunnison-housing-snapshots)  
-**Live Site:** [GitHub Pages](https://<your-username>.github.io/gunnison-housing-snapshots/)
+**Code:** [GitHub Repo](https://github.com/Eesterlein/gunnison-housing-snapshots)  
+**Live Site:** [GitHub Pages](https://eesterlein.github.io/gunnison-housing-snapshots/)
 
 **Goal:**  
 Create an interactive, public-facing dashboard to compare **pre-COVID (2017–2018)** vs **post-COVID (2022–2023)** housing market conditions in Gunnison County, CO, and communicate affordability changes.
