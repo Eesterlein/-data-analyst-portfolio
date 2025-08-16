@@ -41,7 +41,7 @@ I'm actively building my skills through certifications, real-world projects, and
 
 #### Web Development
 - [Gunnison Airport Flight Tracker Website](#gunnison-airport-flight-tracker-website)
-- [Gunnison County Housing Dashboard (Pre/Post COVID)](gunnison-housing-snapshots)
+- [Gunnison County Housing Dashboard (Pre/Post COVID)](#gunnison-housing-snapshots)
 
 
 #### Tableau  
