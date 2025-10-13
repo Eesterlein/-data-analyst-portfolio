@@ -42,6 +42,7 @@ I'm actively building my skills through certifications, real-world projects, and
 #### Web Development
 - [Gunnison Airport Flight Tracker Website](#gunnison-airport-flight-tracker-website)
 - [Gunnison County Housing Dashboard (Pre/Post COVID)](#gunnison-county-housing-dashboard-prepost-covid)
+- [Residential Structure Conditions in Gunnison County](#Residential_Structure_Conditions_in_Gunnison_County)
  
 
 
@@ -166,6 +167,31 @@ Web development, data visualization, data cleaning, UX copy & layout, deployment
   
 ---
 
+## Residential Structure Conditions in Gunnison County
+
+**Code:** [GitHub Repo](https://github.com/Eesterlein/gunnison-residential-condition)  
+**Live Site:** [GitHub Pages](https://eesterlein.github.io/gunnison-residential-condition/)
+
+**Goal:**  
+Develop two connected, interactive dashboards to visualize the **assessed condition and value of residential structures across Gunnison County, CO** — one focused on **primary improvements** (main dwellings) and another that includes **all residential improvements** throughout the valley.
+
+**Description:**  
+Built with **HTML, CSS, JavaScript, Plotly.js,** and **PapaParse**, these dashboards provide a transparent look at Gunnison County’s residential housing stock based on assessor data.
+
+- The **Primary Improvements Dashboard** highlights overall housing condition, quality, and market characteristics for main dwellings only.  
+- The **All Improvements Dashboard** expands the analysis to include every residential improvement — offering a full picture of the built environment across Economic Areas 1, 2, 6, and 8.  
+- A navigation button links both dashboards, allowing side-by-side comparison of trends between primary and secondary structures.
+
+**Skills:**  
+Data visualization • Web development • Data cleaning • UX layout • Public data communication • GitHub Pages deployment
+
+**Results:**  
+- The majority of primary residential structures are in **Average** or **Good** condition, with smaller shares rated **Very Good** or **Excellent**.  
+- When including **all improvements**, total **assessed improvement value** across Gunnison County exceeds **$9.4 billion**, illustrating the scale of residential development countywide.  
+- Condition distribution patterns align with **economic areas** — higher-condition properties cluster in Areas 1 and 6 (Gunnison & Crested Butte), while more varied conditions appear in rural areas.
+
+---
+  
 ## Education  
 **Western State Colorado University**  
 **Bachelor of Arts – Biology**  
