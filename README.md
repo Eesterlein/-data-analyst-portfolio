@@ -42,9 +42,8 @@ I'm actively building my skills through certifications, real-world projects, and
 #### Web Development
 - [Gunnison Airport Flight Tracker Website](#gunnison-airport-flight-tracker-website)
 - [Gunnison County Housing Dashboard (Pre/Post COVID)](#gunnison-county-housing-dashboard-prepost-covid)
-- [Residential Structure Conditions in Gunnison County](#Residential_Structure_Conditions_in_Gunnison_County)
+- [Residential Structure Conditions in Gunnison County](#residential-structure-conditions-in-gunnison-county)
  
-
 
 #### Tableau  
 - [My Tableau Public Profile](https://public.tableau.com/app/profile/elissa.esterlein)  
