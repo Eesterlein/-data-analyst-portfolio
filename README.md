@@ -36,7 +36,7 @@ I'm actively building my skills through certifications, real-world projects, and
 #### Workplace Automation & Tools
 - [MLS Photo Processor](#mls-photo-processor)
 - [Gunnison County Property Analysis Map](#gunnison-county-property-analysis-map)
-- [Zillow Property & Photo Scraper](#zillow-property-scraper-scraperapi-version)
+- [Zillow Property & Photo Scraper](#zillow-property--photo-scraper-in-development)
   
   
 #### SQL  
