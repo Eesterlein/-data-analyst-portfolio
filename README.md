@@ -33,6 +33,11 @@ I'm actively building my skills through certifications, real-world projects, and
 - [Colorado Land Ownership](#colorado-land-ownership)
 - [Building Local Language Models](#building-local-language-models)  
 
+#### Workplace Automation & Tools
+- [MLS Photo Processor](#mls-photo-processor)
+- [Gunnison County Property Analysis Map](#gunnison-county-property-analysis-map)
+- [Zillow Property & Photo Scraper](#zillow-property--photo-scraper)
+  
 #### SQL  
 - [US State-level Demographics Snapshot](#US-State-level-Demographics-Snapshot)
   
@@ -92,6 +97,53 @@ In this section, I list data analytics and AI projects with brief summaries and 
 **Technology:** Python, Ollama, LangChain, LlamaIndex, Markdown, FastAPI (planned).
 
 **Results:** Demonstrated how companies can use on-device models for internal knowledge queries without sharing data externally.
+
+---
+
+### MLS Photo Processor
+
+**Code:** [MLS Photo Renaming & Classification Repo](https://github.com/Eesterlein/MLS-Photo-Processor)  
+
+**Goal:** To automate the tedious process of renaming, sorting, and classifying MLS property photos for assessor and appraisal workflows.  
+
+**Description:** Built a local desktop utility that uses AI to organize property images. The app matches user-provided parcel numbers to internal account records and uses a vision-language model (CLIP) to automatically "see" and label photos (e.g., Kitchen, Exterior, Bathroom). It transforms messy, randomly named downloads into standardized, system-ready files without any manual data entry.  
+
+**Skills:** Zero-shot image classification, desktop GUI development, asynchronous processing, file system automation, data mapping.  
+
+**Technology:** Python, PyTorch, Hugging Face (CLIP), Pandas, Tkinter, Pillow.  
+
+**Results:** Eliminate manual renaming for high-volume photo sets. The tool provides deterministic, conservative classification—defaulting to "Other" if confidence is low—ensuring 100% reliable file naming and immediate compatibility with local government recording systems.
+
+---
+
+### Gunnison County Property Analysis Map
+**Code:** [Gunnison GIS Mapping Static Demo](https://github.com/Eesterlein/gunnison_gis_mapping_static_demo)  
+**Live Report:** [GitHub Pages Site](https://eesterlein.github.io/gunnison_gis_mapping_static_demo/html_map/)
+
+**Goal:** To provide appraisers and GIS analysts with an interactive tool for visualizing property attributes and identifying data discrepancies across Gunnison County.
+
+**Description:** Developed a lightweight, high-performance web mapping application that joins disparate assessment CSVs with GeoJSON parcel boundaries. The tool allows users to dynamically style parcels based on appraisal-critical features like quality, view descriptions, and total value. By isolating parcels with missing or outlier data, the application serves as a front-end interface for spatial data auditing and valuation analysis.
+
+**Skills:** Geospatial data joining, thematic mapping, front-end web development, data integrity/QA.
+
+**Technology:** JavaScript (ES6+), Leaflet.js, HTML5/CSS3, GeoJSON, CSV.
+
+**Results:** Achieved a 97% data coverage rate by merging multiple assessment sources, enabling a "clean interface" approach where analysts can instantly identify and correct data gaps in the county's primary property records.
+
+---
+
+### Zillow Property & Photo Scraper [In Development]
+**Code:** [Zillow Photo Scraper Repo](https://github.com/Eesterlein/zillow-photo-scraper-scraperapi)
+
+**Goal:** To automate the extraction of property metadata and high-resolution images from Zillow for real estate appraisal and market analysis.
+
+**Description:** Developed a Python-based scraping utility designed to bypass bot detection using ScraperAPI to retrieve listing data and image assets. The tool performs fuzzy address matching against a local CSV database to automatically organize downloads into account-specific directories. **Note:** This project is currently being refactored; an updated version utilizing Playwright and Chromium for enhanced browser automation and stability will be pushed soon.
+
+**Skills:** Web scraping architecture, API integration (ScraperAPI), data normalization, folder-structure automation, asynchronous asset downloading.
+
+**Technology:** Python, Requests, Pandas, JSON, BeautifulSoup4 (Playwright/Chromium implementation pending).
+
+**Results:** Built a functional pipeline that handles batch URL processing and auto-classifies images based on metadata hints, significantly reducing the manual effort required to compile subject property photo boards.
 
 ---
 
@@ -209,7 +261,6 @@ The best way to showcase skills is by building real-world projects, but certific
 
 ## Contact  
 **Email:** elissa.esterlein@gmail.com  
-**Phone:** (970) 403-7694  
 
 
 
