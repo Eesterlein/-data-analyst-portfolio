@@ -235,7 +235,7 @@ Showed condition clustering by economic area and over $9.4B in assessed resident
 
 ### Gunnison Airport Flight Tracker Website
 **Code:** https://github.com/Eesterlein/gunnison-airport-tracker  
-**Live App:** https://gunnison-airport-tracker-28d8dfff50df.herokuapp.com
+**Live App:** Not currently hosted to limit API usage and ongoing hosting costs
 
 **Goal:**  
 Track real-time private and commercial flights near Gunnison Airport (KGUC).
