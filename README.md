@@ -29,6 +29,7 @@ I’m actively building through real-world projects, certifications, and public 
   - [MLS Photo Processor](#mls-photo-processor)  
   - [Gunnison County Property Analysis Map](#gunnison-county-property-analysis-map)  
   - [Zillow Property & Photo Scraper](#zillow-property--photo-scraper-in-development)
+  - [Gunnison County Map Explorer](#gunnison-county-map-explorer)
 
 - [Data Analysis & Research](#data-analysis--research)  
   - [Garmin Fitness Data Analysis](#garmin-fitness-data-analysis)  
@@ -131,6 +132,30 @@ Python, Requests, Pandas, JSON, BeautifulSoup (Playwright planned)
 
 **Results:**  
 Built a batch-processing pipeline that significantly reduced manual effort for compiling subject property photo sets.
+
+---
+
+### Gunnison County Property & Assessment Map
+**Code:** https://github.com/Eesterlein/gunnison-county-map-explorer
+
+**Goal:**  
+Build a modern, interactive GIS map to support internal property assessment workflows by providing fast, intuitive access to parcel, jurisdiction, and town-level spatial data.
+
+**Description:**  
+Designed and implemented a full-stack GIS web application that serves county assessor shapefiles through a PostGIS database and exposes them via an OGC API – Features service. Spatial data is containerized and served using Docker, with TBG (Tiny Building Blocks) providing standards-compliant vector tile delivery.
+
+The frontend is a React + TypeScript application built with MapLibre GL, allowing users to toggle assessment layers, switch base maps (street, satellite, terrain), and smoothly navigate to predefined towns using animated map transitions. The architecture cleanly separates base maps from vector layers, ensuring performance and maintainability as datasets grow.
+
+This project demonstrates how legacy GIS data can be transformed into a modern, web-native mapping tool suitable for internal government use, without reliance on proprietary GIS platforms.
+
+**Skills:**  
+GIS systems design • Spatial databases • OGC standards • Web mapping • Frontend architecture • Dockerized services
+
+**Technology:**  
+PostgreSQL / PostGIS • OGC API – Features (tipg) • TBG (vector tile server) • Docker & Docker Compose • React • TypeScript • MapLibre GL • Vite
+
+**Results:**  
+Delivered a performant, extensible GIS application that enables interactive exploration of property and jurisdiction data, providing a foundation for future assessor tools such as valuation overlays, parcel analytics, and public-facing map views.
 
 ---
 
