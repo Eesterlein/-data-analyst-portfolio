@@ -135,7 +135,7 @@ Built a batch-processing pipeline that significantly reduced manual effort for c
 
 ---
 
-### Gunnison County Property & Assessment Map
+### Gunnison County Map Explorer
 **Code:** https://github.com/Eesterlein/gunnison-county-map-explorer
 
 **Goal:**  
