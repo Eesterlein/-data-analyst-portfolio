@@ -43,6 +43,7 @@ I’m actively building through real-world projects, certifications, and public 
 - [Web Applications & Public Tools](#web-applications--public-tools)  
   - [Gunnison Airport Flight Tracker Website](#gunnison-airport-flight-tracker-website)  
   - [Gunnison County Property Tax Calculator](#gunnison-county-property-tax-calculator)
+  - [Gunnison County Permit Portal](#gunnison-county-permit-portal)
 
 - [Education](#education)  
 - [Certificates](#certificates)  
@@ -296,6 +297,34 @@ HTML, CSS, JavaScript, JSON, GitHub Pages
 
 **Results:**  
 Delivered a production-ready educational tool that improves transparency and reduces confusion around how property taxes are calculated.
+
+---
+
+### Gunnison County Permit Portal
+**Code:** https://github.com/Eesterlein/gunnison-permit-portal  
+**Live Demo:** http://35.92.90.120
+
+**Goal:**  
+Give the public instant online access to building permit records across all four Gunnison County jurisdictions — eliminating the need for phone calls, public records requests, or office visits.
+
+**Description:**  
+A full-stack web application with two distinct interfaces: a public-facing permit search portal and a private staff admin portal. The public can search permits by address, permit number, parcel ID, or owner name without logging in. Municipal building department staff log in to manage their jurisdiction's permits — entering records manually, uploading CSV or Excel exports from their existing systems, tracking inspections, and attaching documents like building plans and certificates.
+
+The app includes smart CSV column auto-mapping that learns each jurisdiction's file format and remembers it for future uploads, a status progress bar showing where each permit is in the approval lifecycle, and downloadable attachments served securely from cloud storage. Designed to be simple enough for non-technical government staff while being robust enough to handle years of permit history.
+
+Built as a licensable SaaS product for municipalities — currently in active use and available for other counties to adopt.
+
+**Skills:**  
+Full-stack web development • REST API design • JWT authentication • Role-based access control • CSV/Excel parsing • Cloud deployment • Database design • UX design for non-technical users
+
+**Technology:**  
+React, Tailwind CSS, Node.js, Express, PostgreSQL, Prisma ORM, AWS (EC2, RDS, S3), Docker, SheetJS, JWT
+
+**Hosting:**  
+Deployed on AWS — React frontend served via nginx on EC2, PostgreSQL database on RDS, file attachments stored on S3. Runs continuously with automated backups.
+
+**Results:**  
+Delivered a production-ready public records tool covering Gunnison County, City of Gunnison, Town of Crested Butte, and Town of Mt. Crested Butte. Supports CSV bulk import, manual entry, inspection tracking, and file attachments — replacing manual phone-based permit lookups with a self-service public portal.
 
 ---
 
