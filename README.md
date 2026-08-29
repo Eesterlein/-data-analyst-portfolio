@@ -30,6 +30,7 @@ I’m actively building through real-world projects, certifications, and public 
   - [Gunnison County Property Analysis Map](#gunnison-county-property-analysis-map)  
   - [Zillow Property & Photo Scraper](#zillow-property--photo-scraper-in-development)
   - [Gunnison County Map Explorer](#gunnison-county-map-explorer)
+  - [Gunnison County Assessor Map Platform](#gunnison-county-assessor-map-platform)
 
 - [Data Analysis & Research](#data-analysis--research)  
   - [Garmin Fitness Data Analysis](#garmin-fitness-data-analysis)  
@@ -157,6 +158,30 @@ PostgreSQL / PostGIS • OGC API – Features (tipg) • TBG (vector tile server
 
 **Results:**  
 Delivered a performant, extensible GIS application that enables interactive exploration of property and jurisdiction data, providing a foundation for future assessor tools such as valuation overlays, parcel analytics, and public-facing map views.
+
+---
+
+### Gunnison County Assessor Map Platform
+**Code:** https://github.com/Eesterlein/assessor-map  
+**Live Map:** http://165.232.147.15  
+**Live Admin:** http://165.232.147.15/admin/ *(username: admin / password: password)*
+
+**Goal:**  
+Build a production-ready, full-stack GIS platform for Gunnison County assessors — enabling configurable map layers, live data uploads, and non-geometry data joins without requiring any GIS software or code changes.
+
+**Description:**  
+A complete multi-app mapping ecosystem consisting of a public-facing interactive map viewer and a private admin panel, backed by PostGIS, an OGC API tile server, and a custom file ingestion pipeline. The admin panel allows non-technical users to configure maps, upload shapefiles or GeoJSON, and create "virtual layers" — a feature that joins CSV or Excel tabular data (e.g., appraisal attributes, tax records) directly to parcel geometries using a shared key like account number, with no geometry column required.
+
+The platform includes live FIRMS/VIIRS wildfire detection data updated every 30 minutes, multi-map configuration support, drag-and-drop data uploads, and a layer styling editor. Deployed on a DigitalOcean VPS using Docker Compose with nginx routing, firewall hardening, and daily database backup.
+
+**Skills:**  
+Full-stack web development • GIS systems design • Spatial database architecture • OGC API standards • Docker deployment • Server hardening • ETL pipeline design • UX design for non-technical users
+
+**Technology:**  
+React • TypeScript • MapLibre GL JS • Node.js • Express • PostgreSQL / PostGIS • OGC API Features (tipg) • Docker Compose • nginx • Zod • Vite • TailwindCSS • GDAL / ogr2ogr • SheetJS
+
+**Results:**  
+Delivered a live, production-deployed GIS platform supporting multiple configurable maps, real-time wildfire layer integration, and a virtual layer system that allows assessors to visualize any tabular dataset spatially without needing GIS expertise or geometry data — reducing the barrier to geospatial analysis for county staff.
 
 ---
 
