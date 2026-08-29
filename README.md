@@ -363,9 +363,23 @@ Gunnison, CO (2013)
 
 ## Certificates
 
-- Google AI Essentials (2024)  
-- Google Data Analytics Professional Certificate (2024)  
-- Good Clinical Practice Certification (2024)
+**Data & Technology**
+- [Google Data Analytics Professional Certificate (2024)](certificates/Google_Data_Analytics_2024.pdf)
+- [Google AI Essentials (2024)](certificates/Google_AI_Essentials_2024.pdf)
+
+**Property Assessment & Appraisal** *(Colorado Regional Assessment Education Program)*
+- [Basic Appraisal Principles (2025)](certificates/Basic_Appraisal_Principles_2025.pdf)
+- [Basic Appraisal Procedures (2025)](certificates/Basic_Appraisal_Procedures_2025.pdf)
+- [Introduction to Assessment (2025)](certificates/Intro_to_Assessment_2025.pdf)
+- [Intro to Ad Valorem Mass Appraisal (2025)](certificates/Ad_Valorem_Mass_Appraisal_2025.pdf)
+- [15-Hour National USPAP Course (2025)](certificates/USPAP_15Hour_2025.pdf)
+
+**Clinical Research**
+- [Good Clinical Practice — NIDA Clinical Trials Network (2024)](certificates/Good_Clinical_Practice_2024.pdf)
+
+**Emergency Management** *(FEMA)*
+- [IS-100.c: Introduction to Incident Command System (2026)](certificates/FEMA_IS100c_ICS_2026.pdf)
+- [IS-700.b: Introduction to the National Incident Management System (2026)](certificates/FEMA_IS700b_NIMS_2026.pdf)
 
 ---
 
