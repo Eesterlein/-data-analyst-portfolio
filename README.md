@@ -13,7 +13,7 @@ My work spans exploratory analysis, dashboards, internal automation tools, and l
 I’m actively building through real-world projects, certifications, and public datasets, and I’m excited to contribute to mission-driven organizations as a thoughtful, adaptable data analyst.
 
 📍 Based in Colorado  
-📁 View my resume: [CV_pdf.pdf](CV_pdf.pdf)  
+📁 View my resume: [Elissa_Esterlein_Resume.pdf](Elissa_Esterlein_Resume.pdf)  
 📊 [Kaggle](https://www.kaggle.com/elissaesterlein) • [Tableau Public](https://public.tableau.com/app/profile/elissa.esterlein/vizzes) • [GitHub](https://github.com/Eesterlein)
 
 ---
