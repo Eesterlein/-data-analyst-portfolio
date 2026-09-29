@@ -38,6 +38,7 @@ I’m actively building through real-world projects, certifications, and public 
   - [US State-level Demographics Snapshot](#us-state-level-demographics-snapshot)
 
 - [Dashboards & Data Storytelling](#dashboards--data-storytelling)  
+  - [Gunnison County Land Attributes Dashboard](#gunnison-county-land-attributes-dashboard)  
   - [Gunnison County Housing Dashboard (Pre/Post COVID)](#gunnison-county-housing-dashboard-prepost-covid)  
   - [Residential Structure Conditions in Gunnison County](#residential-structure-conditions-in-gunnison-county)
 
@@ -77,7 +78,7 @@ Delivered a working proof-of-concept showing how organizations can replace cloud
 ---
 
 ### MLS Photo Processor
-**Code:** https://github.com/Eesterlein/MLS-Photo-Processor  
+**Code:** https://github.com/Eesterlein/Parcel-Based-MLS-Photo-Renaming-Classification-Tool  
 
 **Goal:**  
 Automate the renaming, sorting, and classification of MLS property photos for assessor and appraisal workflows.
@@ -98,7 +99,7 @@ Eliminated manual renaming for high-volume photo sets. The tool uses conservativ
 
 ### Gunnison County Property Analysis Map
 **Code:** https://github.com/Eesterlein/gunnison_gis_mapping_static_demo  
-**Live Demo:** https://eesterlein.github.io/gunnison_gis_mapping_static_demo/html_map/
+**Live Demo:** https://eesterlein.github.io/gunnison_gis_mapping_static_demo/
 
 **Goal:**  
 Provide appraisers and GIS analysts with a fast, visual method to identify data gaps and valuation inconsistencies across Gunnison County.
@@ -252,6 +253,29 @@ Produced a national dashboard highlighting disparities in income, education, and
 
 ## Dashboards & Data Storytelling
 
+### Gunnison County Land Attributes Dashboard
+**Code:** https://github.com/Eesterlein/gunnison-land-attributes  
+**Live Site:** https://eesterlein.github.io/gunnison-land-attributes/
+
+**Goal:**  
+Help appraisers find parcels that are missing land attributes or carry attributes that don't match the properties around them.
+
+**Description:**  
+An interactive parcel map and review tool covering every tax parcel in Gunnison County (about 17,500 shapes and 21,000 accounts). Users pick a land attribute such as views, site access, utilities, or land type, and matching parcels light up on the map. A Review & Stats page reports attribute coverage by account type, flags accounts that differ from their neighbors or subdivision, runs data-entry checks (conflicting utilities, duplicate values, legacy codes), and exports a filterable review list to CSV.
+
+The site rebuilds itself: uploading a new assessor export to the repository triggers a GitHub Actions pipeline that cleans the data, fixes known export quirks (shifted headers, packed multi-value fields), and republishes the dashboard in about two minutes.
+
+**Skills:**  
+Data cleaning & validation • Geospatial joins • Neighbor-based consistency checks • Automated data pipelines • Dashboard design for appraisal staff
+
+**Technology:**  
+MapLibre GL JS, JavaScript, Python (pandas, GeoPandas), GitHub Actions, GitHub Pages
+
+**Results:**  
+Turned three raw assessor exports and a parcel shapefile into a self-updating review tool that surfaces missing and inconsistent land attributes countywide, with shareable links to any attribute view.
+
+---
+
 ### Gunnison County Housing Dashboard (Pre/Post COVID)
 **Code:** https://github.com/Eesterlein/gunnison-housing-snapshots  
 **Live Site:** https://eesterlein.github.io/gunnison-housing-snapshots/
@@ -327,7 +351,7 @@ Delivered a production-ready educational tool that improves transparency and red
 
 ### Gunnison County Permit Portal
 **Code:** https://github.com/Eesterlein/gunnison-permit-portal  
-**Live Demo:** http://35.92.90.120
+**Live Demo:** Currently offline to avoid hosting costs; can be redeployed on AWS on request
 
 **Goal:**  
 Give the public instant online access to building permit records across all four Gunnison County jurisdictions — eliminating the need for phone calls, public records requests, or office visits.
