@@ -39,6 +39,7 @@ I’m actively building through real-world projects, certifications, and public 
 
 - [Dashboards & Data Storytelling](#dashboards--data-storytelling)  
   - [Gunnison County Land Attributes Dashboard](#gunnison-county-land-attributes-dashboard)  
+  - [Gunnison County Building Stock](#gunnison-county-building-stock)  
   - [Gunnison County Housing Dashboard (Pre/Post COVID)](#gunnison-county-housing-dashboard-prepost-covid)  
   - [Residential Structure Conditions in Gunnison County](#residential-structure-conditions-in-gunnison-county)
 
@@ -273,6 +274,27 @@ MapLibre GL JS, JavaScript, Python (pandas, GeoPandas), GitHub Actions, GitHub P
 
 **Results:**  
 Turned three raw assessor exports and a parcel shapefile into a self-updating review tool that surfaces missing and inconsistent land attributes countywide, with shareable links to any attribute view.
+
+---
+
+### Gunnison County Building Stock
+**Code:** https://github.com/Eesterlein/gunnison-building-stock  
+**Live Site:** https://eesterlein.github.io/gunnison-building-stock/
+
+**Goal:**  
+Show what has been built in Gunnison County, when, how big, and how the assessor grades it.
+
+**Description:**  
+A single-page data story built from 18,312 building-level assessor records. Seven sections cover construction by decade (Pre-1900 through the 2020s), each property class's share of building count vs. floor area, average home size by decade built, construction-quality and condition grades, bedroom and bathroom counts for nearly 11,000 residential buildings, the most common of 385 occupancy tags, and a side-by-side summary of every property class.
+
+**Skills:**  
+Exploratory data analysis • Data cleaning & documentation of gaps • Data storytelling • Visualization design • Accessible, responsive layout
+
+**Technology:**  
+HTML, CSS, vanilla JavaScript, hand-drawn SVG charts, GitHub Pages (no libraries or build step)
+
+**Results:**  
+Condensed a raw 18,000-record export into a readable countywide profile of the building stock, with documented methods (including 2,134 buildings with no recorded year), hover tooltips, and light/dark themes.
 
 ---
 
