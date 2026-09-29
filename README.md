@@ -373,7 +373,7 @@ Delivered a production-ready educational tool that improves transparency and red
 
 ### Gunnison County Permit Portal
 **Code:** https://github.com/Eesterlein/gunnison-permit-portal  
-**Live Demo:** Currently offline to avoid hosting costs; can be redeployed on AWS on request
+**Live Demo:** Currently offline to avoid hosting costs; can be spun up quickly on request
 
 **Goal:**  
 Give the public instant online access to building permit records across all four Gunnison County jurisdictions — eliminating the need for phone calls, public records requests, or office visits.
@@ -383,7 +383,7 @@ A full-stack web application with two distinct interfaces: a public-facing permi
 
 The app includes smart CSV column auto-mapping that learns each jurisdiction's file format and remembers it for future uploads, a status progress bar showing where each permit is in the approval lifecycle, and downloadable attachments served securely from cloud storage. Designed to be simple enough for non-technical government staff while being robust enough to handle years of permit history.
 
-Built as a licensable SaaS product for municipalities — currently in active use and available for other counties to adopt.
+Built as a licensable SaaS product for municipalities. It isn't currently in use, but it can be spun up quickly for any county or town that wants to adopt it.
 
 **Skills:**  
 Full-stack web development • REST API design • JWT authentication • Role-based access control • CSV/Excel parsing • Cloud deployment • Database design • UX design for non-technical users
@@ -392,7 +392,7 @@ Full-stack web development • REST API design • JWT authentication • Role-b
 React, Tailwind CSS, Node.js, Express, PostgreSQL, Prisma ORM, AWS (EC2, RDS, S3), Docker, SheetJS, JWT
 
 **Hosting:**  
-Deployed on AWS — React frontend served via nginx on EC2, PostgreSQL database on RDS, file attachments stored on S3. Runs continuously with automated backups.
+Built for AWS — React frontend served via nginx on EC2, PostgreSQL database on RDS, file attachments stored on S3, with automated backups. Currently offline to avoid hosting costs; the database is preserved as a snapshot, so the full stack can be redeployed quickly.
 
 **Results:**  
 Delivered a production-ready public records tool covering Gunnison County, City of Gunnison, Town of Crested Butte, and Town of Mt. Crested Butte. Supports CSV bulk import, manual entry, inspection tracking, and file attachments — replacing manual phone-based permit lookups with a self-service public portal.
