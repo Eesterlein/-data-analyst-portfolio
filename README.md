@@ -255,8 +255,8 @@ Produced a national dashboard highlighting disparities in income, education, and
 ## Dashboards & Data Storytelling
 
 ### Gunnison County Land Attributes Dashboard
-**Code:** https://github.com/Eesterlein/gunnison-land-attributes  
-**Live Site:** https://eesterlein.github.io/gunnison-land-attributes/
+**Code:** https://github.com/Eesterlein/gunnison-land-attributes-demo  
+**Live Site:** https://eesterlein.github.io/gunnison-land-attributes-demo/
 
 **Goal:**  
 Help appraisers find parcels that are missing land attributes or carry attributes that don't match the properties around them.
