@@ -13,6 +13,7 @@ My work spans exploratory analysis, dashboards, internal automation tools, and l
 I’m actively building through real-world projects, certifications, and public datasets, and I’m excited to contribute to mission-driven organizations as a thoughtful, adaptable data analyst.
 
 📍 Based in Colorado  
+🌐 Portfolio site: [eesterlein.github.io](https://eesterlein.github.io/)  
 📁 View my resume: [Elissa_Esterlein_Resume.pdf](Elissa_Esterlein_Resume.pdf)  
 📊 [Kaggle](https://www.kaggle.com/elissaesterlein) • [Tableau Public](https://public.tableau.com/app/profile/elissa.esterlein/vizzes) • [GitHub](https://github.com/Eesterlein)
 
@@ -166,7 +167,7 @@ Delivered a performant, extensible GIS application that enables interactive expl
 ### Gunnison County Assessor Map Platform
 **Code:** https://github.com/Eesterlein/assessor-map  
 **Live Map:** http://165.232.147.15  
-**Live Admin:** http://165.232.147.15/admin/ *(username: admin / password: password)*
+**Live Admin Demo:** http://165.232.147.15/admin/ *(username: demo / password: gunnison-demo; resets nightly, so feel free to explore)*
 
 **Goal:**  
 Build a production-ready, full-stack GIS platform for Gunnison County assessors — enabling configurable map layers, live data uploads, and non-geometry data joins without requiring any GIS software or code changes.
