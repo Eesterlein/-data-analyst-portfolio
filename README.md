@@ -25,6 +25,13 @@ I’m actively building through real-world projects, certifications, and public 
 
 - [About](#about)
 
+- [AI Applications](#ai-applications)
+  - [COVID Trials AI](#covid-trials-ai)
+  - [Appraiser Photo Processor](#appraiser-photo-processor)
+  - [Property Eye](#property-eye)
+  - [Assessor Website Audit](#assessor-website-audit)
+  - [AI Field Guide](#ai-field-guide)
+
 - [Workplace Automation & Internal Tools](#workplace-automation--internal-tools)  
   - [Local LLM Knowledge Assistant](#local-llm-knowledge-assistant)  
   - [MLS Photo Processor](#mls-photo-processor)  
@@ -42,17 +49,84 @@ I’m actively building through real-world projects, certifications, and public 
   - [Gunnison County Land Attributes Dashboard](#gunnison-county-land-attributes-dashboard)  
   - [Gunnison County Building Stock](#gunnison-county-building-stock)  
   - [Gunnison County Housing Dashboard (Pre/Post COVID)](#gunnison-county-housing-dashboard-prepost-covid)  
-  - [Residential Structure Conditions in Gunnison County](#residential-structure-conditions-in-gunnison-county)
+  - [Residential Structure Conditions in Gunnison County](#residential-structure-conditions-in-gunnison-county)  
+  - [Gunnison STR Monitor](#gunnison-str-monitor)
+  - [Blue Mesa Water Report](#blue-mesa-water-report)
+  - [Repo Traffic Dashboard](#repo-traffic-dashboard)
+  - [Lottery Frequency Dashboard](#lottery-frequency-dashboard)
 
 - [Web Applications & Public Tools](#web-applications--public-tools)  
   - [Gunnison Airport Flight Tracker Website](#gunnison-airport-flight-tracker-website)  
   - [Gunnison County Property Tax Calculator](#gunnison-county-property-tax-calculator)
   - [Gunnison County Permit Portal](#gunnison-county-permit-portal)
+  - [The Assessor’s Year](#the-assessors-year)
+  - [GitHub Field Guide](#github-field-guide)
 
 - [Education](#education)  
 - [Certificates](#certificates)  
 - [Contact](#contact)
 
+
+---
+
+## AI Applications
+
+### COVID Trials AI
+**Code:** https://github.com/Eesterlein/covid-trials-ai  
+**Live Demo:** https://huggingface.co/spaces/Eesterlein/covid-trials-ai
+
+**Description:**  
+Ask a question about COVID-19 and get an answer drawn from 10,269 ClinicalTrials.gov records and 1,630 open-access papers, with every claim linked to its source. Claude searches the trials (vector and keyword search with a medical reranker), reads posted results, and runs statistics such as pooled risk ratios in a code sandbox. A 20-question eval compared three Claude models and caught two real bugs before launch; spend caps, rate limits and a bot check keep the public demo cheap to run.
+
+**Technology:**  
+Python, Claude API (tool use), RAG, MedCPT embeddings, LanceDB, FastAPI, Hugging Face Spaces, evals
+
+---
+
+### Appraiser Photo Processor
+**Code:** https://github.com/Eesterlein/Appraiser-Photo-Processor  
+
+**Description:**  
+Multimodal AI used in daily work. The app reads each field photo’s GPS and compass data, matches it to the nearest parcel, classifies the shot with Claude Vision, and renames it to the office’s standard. It replaced a manual sorting step for appraisers and runs on staff Windows machines.
+
+**Technology:**  
+Python, Claude API, Vision AI, CLIP, prompt engineering, PyInstaller
+
+---
+
+### Property Eye
+**Code:** https://github.com/Eesterlein/gunnison-property-eye  
+**Live Demo:** https://64.23.133.119.sslip.io
+
+**Description:**  
+Satellite change detection across 20,201 tax parcels that flags likely new construction while ignoring change on neighboring lots. Checked against aerial photos, 6 of the 8 strongest flags were real. Reviewers swipe between dated aerial photos back to 2005.
+
+**Technology:**  
+Python, FastAPI, Google Earth Engine, PostGIS, React, MapLibre, Docker
+
+---
+
+### Assessor Website Audit
+**Code:** https://github.com/Eesterlein/gunnison-assessor-audit  
+**Live Demo:** https://eesterlein.github.io/gunnison-assessor-audit/
+
+**Description:**  
+Ran the same research prompt and scoring rubric through ChatGPT, Gemini, and Claude, compared 24 Colorado counties, and merged the three reviews into one ranked action plan. One model caught a new state deadline change the other two missed.
+
+**Technology:**  
+Prompt engineering, OpenAI API, Claude API, Gemini
+
+---
+
+### AI Field Guide
+**Code:** https://github.com/Eesterlein/ai-field-guide  
+**Live Demo:** https://eesterlein.github.io/ai-field-guide/
+
+**Description:**  
+An interactive guide to the AI words programmers keep hearing (agent, harness, context window, MCP, RAG), with 21 hands-on demos: play the Turing test, overflow a context window, run an agent loop, plug in MCP servers, and spot the made-up claims in an AI answer. Every term has a plain-English and a developer explanation.
+
+**Technology:**  
+JavaScript, SVG, data visualization
 
 ---
 
@@ -329,6 +403,54 @@ Showed condition clustering by economic area and over $9.4B in assessed resident
 
 ---
 
+### Gunnison STR Monitor
+**Code:** https://github.com/Eesterlein/gunnison-str-dashboard  
+**Live Demo:** https://eesterlein.github.io/gunnison-str-dashboard/
+
+**Description:**  
+A self-updating dashboard of short-term rentals in unincorporated Gunnison County, built ahead of the county’s 2027 STR licensing program. Every Monday a GitHub Action searches about 300 map tiles, filters out hotels, campsites and in-town listings, matches each listing to the nearest parcel with a confidence rating, and tracks new and delisted rentals week to week.
+
+**Technology:**  
+Python, GeoPandas, web scraping, GitHub Actions, JavaScript
+
+---
+
+### Blue Mesa Water Report
+**Code:** https://github.com/Eesterlein/blue-mesa-water-report  
+**Live Demo:** https://eesterlein.github.io/blue-mesa-water-report/
+
+**Description:**  
+How full is Colorado’s largest lake, and how much is the dam letting out? Built from every daily Bureau of Reclamation reading since 1968, it shows the reservoir hitting an all-time low in October 2026. One script re-downloads the data and rebuilds the page.
+
+**Technology:**  
+Python, JavaScript, D3.js
+
+---
+
+### Repo Traffic Dashboard
+**Code:** https://github.com/Eesterlein/repo-traffic-dashboard  
+**Live Demo:** https://eesterlein.github.io/repo-traffic-dashboard/
+
+**Description:**  
+GitHub keeps only 14 days of traffic per repository. A daily GitHub Action pulls views, visitors, clones and referrers for every public repo, plus visits to the live project sites, and builds up the full history in one dashboard. A weekly summary arrives by email every Monday.
+
+**Technology:**  
+Python, GitHub Actions, REST APIs, JavaScript
+
+---
+
+### Lottery Frequency Dashboard
+**Code:** https://github.com/Eesterlein/lottery-project  
+**Live Demo:** https://eesterlein.github.io/lottery-project/
+
+**Description:**  
+Reads the full Powerball and Millionaire for Life drawing histories, weights every number by how often it has come up, and shows the most frequent picks. It describes the historical data only; it does not predict a fair drawing or change the odds.
+
+**Technology:**  
+Python, Streamlit, Pandas, JavaScript
+
+---
+
 ## Web Applications & Public Tools
 
 ### Gunnison Airport Flight Tracker Website
@@ -397,6 +519,30 @@ Built for AWS — React frontend served via nginx on EC2, PostgreSQL database on
 
 **Results:**  
 Delivered a production-ready public records tool covering Gunnison County, City of Gunnison, Town of Crested Butte, and Town of Mt. Crested Butte. Supports CSV bulk import, manual entry, inspection tracking, and file attachments — replacing manual phone-based permit lookups with a self-service public portal.
+
+---
+
+### The Assessor’s Year
+**Code:** https://github.com/Eesterlein/gunnison-assessor-year  
+**Live Demo:** https://eesterlein.github.io/gunnison-assessor-year/
+
+**Description:**  
+An unofficial interactive guide to Colorado’s two-year property tax cycle. Pick the year you pay your bill and it shows which home-sale date and which January 1 your bill is based on, then walks through each step from valuation to tax bill, with upcoming deadlines counted down automatically.
+
+**Technology:**  
+JavaScript, SVG
+
+---
+
+### GitHub Field Guide
+**Code:** https://github.com/Eesterlein/github-field-guide  
+**Live Demo:** https://eesterlein.github.io/github-field-guide/
+
+**Description:**  
+An interactive Git and GitHub course built around a practice terminal. Learners type real commands, the terminal answers the way Git would, and each step is graded with a hint when it is wrong. 19 lessons go from clone, branches and merge conflicts to SSH keys, pull requests and GitHub Actions.
+
+**Technology:**  
+JavaScript, SVG, Git, GitHub Actions
 
 ---
 
